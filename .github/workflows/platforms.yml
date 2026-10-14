@@ -1,0 +1,190 @@
+name: Platforms
+
+# Runs the latest green master build of RustyZoo on a Windows, a macOS and a Linux runner, on each
+# system's real video driver, and commits two pictures per system to platforms/.
+on: workflow_dispatch
+
+permissions:
+  contents: read
+
+concurrency: platforms
+
+env:
+  ENGINE: RustyZoo/RustyZoo
+
+jobs:
+  prepare:
+    runs-on: ubuntu-22.04
+    outputs:
+      run: ${{ steps.latest.outputs.run }}
+      sha: ${{ steps.latest.outputs.sha }}
+    steps:
+      - id: latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run list -R "$ENGINE" -b master -w CI -s success -L 1 --json databaseId,headSha \
+            --jq '"run=\(.[0].databaseId)\nsha=\(.[0].headSha)"' | tee -a "$GITHUB_OUTPUT"
+
+  shoot:
+    needs: prepare
+    name: ${{ matrix.system }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { system: windows, os: windows-2025, artifact: rustyzoo-windows-x86_64, driver: windows }
+          - { system: macos, os: macos-15, artifact: rustyzoo-macos-universal, driver: cocoa }
+          - { system: linux, os: ubuntu-22.04, artifact: rustyzoo-linux-x86_64, driver: x11 }
+    defaults:
+      run:
+        shell: bash
+    steps:
+      # Only ci/fetch-trials.sh is needed from the engine repository.
+      - uses: actions/checkout@v7
+        with:
+          repository: ${{ env.ENGINE }}
+          ref: ${{ needs.prepare.outputs.sha }}
+          sparse-checkout: ci
+          path: engine
+          persist-credentials: false
+
+      - name: Download the release binary of that build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tmp="${RUNNER_TEMP//\\//}"
+          gh run download "${{ needs.prepare.outputs.run }}" -R "$ENGINE" -n "${{ matrix.artifact }}" -D "$tmp/bin"
+          chmod +x "$tmp"/bin/rustyzoo*
+          ls -l "$tmp/bin"
+
+      - uses: actions/cache@v6
+        with:
+          path: |
+            ${{ runner.temp }}/trials/base-trial
+          key: trials-${{ runner.os }}-${{ hashFiles('engine/ci/fetch-trials.sh') }}
+
+      - name: Fetch the official trials
+        run: engine/ci/fetch-trials.sh "${RUNNER_TEMP//\\//}/trials"
+
+      # A virtual display with a light window manager, so that the window has a frame.
+      - name: Start the virtual display
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends xvfb openbox imagemagick
+          Xvfb :99 -screen 0 1280x1024x24 &
+          sleep 2
+          DISPLAY=:99 openbox &
+          echo DISPLAY=:99 >>"$GITHUB_ENV"
+
+      - name: Run the game windowed and take the pictures
+        env:
+          SDL_VIDEO_DRIVER: ${{ matrix.driver }}
+          SDL_RENDER_DRIVER: software
+          SDL_AUDIO_DRIVER: dummy
+        run: |
+          tmp="${RUNNER_TEMP//\\//}"
+          out="$tmp/pictures"
+          mkdir -p "$out" "$tmp/user"
+          # Windowed (the engine starts full screen by default), settings in a temporary folder.
+          printf '[user]\nfullscreen=0\n' >"$tmp/user/zoo.ini"
+          export RUSTYZOO_USER_DIR="$tmp/user"
+          bin=$(ls "$tmp"/bin/rustyzoo*)
+          run=("$bin" --data "$tmp/trials/base-trial" run maps/default.zoo)
+
+          # The window's own read-back.
+          "${run[@]}" --passes 60 --shot "$out/${{ matrix.system }}-shot.png" | tee "$tmp/window.out"
+          sed -n 's/^display scale \([0-9.]*\) pixel density \([0-9.]*\)$/\1 (pixel density \2)/p' \
+            "$tmp/window.out" >"$out/scale.txt"
+
+          # The desktop while the window is open.
+          "${run[@]}" --passes 100000 >"$tmp/open.out" 2>&1 &
+          pid=$!
+          sleep 20
+          case "$RUNNER_OS" in
+            Linux) import -window root "$out/${{ matrix.system }}-desktop.png" ;;
+            macOS) screencapture -x "$out/${{ matrix.system }}-desktop.png" ;;
+            Windows)
+              pwsh -NoProfile -Command '
+                Add-Type -AssemblyName System.Windows.Forms, System.Drawing
+                $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
+                $bmp = New-Object System.Drawing.Bitmap $b.Width, $b.Height
+                [System.Drawing.Graphics]::FromImage($bmp).CopyFromScreen($b.Left, $b.Top, 0, 0, $bmp.Size)
+                $bmp.Save($args[0], [System.Drawing.Imaging.ImageFormat]::Png)
+              ' "$(cygpath -w "$out/${{ matrix.system }}-desktop.png")" ;;
+          esac || echo "::warning title=Desktop capture failed::No desktop picture on ${{ matrix.system }}."
+          kill "$pid" 2>/dev/null || true
+          if [ "$RUNNER_OS" = Windows ]; then taskkill //F //IM rustyzoo.exe || true; fi
+          cat "$tmp/open.out"
+          ls -l "$out"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: pictures-${{ matrix.system }}
+          path: ${{ runner.temp }}/pictures
+          if-no-files-found: error
+
+  commit:
+    needs: [prepare, shoot]
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Collect the pictures
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download "$GITHUB_RUN_ID" -D "$RUNNER_TEMP/in"
+          day=$(date -u +%F)
+          sha='${{ needs.prepare.outputs.sha }}'
+          short=${sha:0:7}
+          mkdir -p platforms
+          [ -f platforms/README.md ] || cat >platforms/README.md <<'MD'
+          # Platforms
+
+          The latest green master build of RustyZoo on the GitHub runner of each system, on its real video
+          driver (software renderer, windowed). Per system, `shot` is the window's own read-back and
+          `desktop` is a screenshot of the desktop with the window open. A desktop capture that comes out
+          black is not kept.
+
+          | Date | Engine commit | System | Display scale |
+          | --- | --- | --- | --- |
+          MD
+          latest=""
+          for system in windows macos linux; do
+            d="$RUNNER_TEMP/in/pictures-$system"
+            [ -d "$d" ] || continue
+            note=""
+            for what in shot desktop; do
+              f="$d/$system-$what.png"
+              [ -f "$f" ] || continue
+              if [ "$(convert "$f" -format '%[fx:maxima]' info:)" = 0 ]; then
+                note=" (desktop capture black, read-back only)"
+                continue
+              fi
+              dest="platforms/$day-$system-$what.png"
+              cp "$f" "$dest"
+              latest="$latest<a href=\"$dest\"><img src=\"$dest\" width=\"320\" alt=\"$day-$system-$what.png\"></a>"$'\n'
+            done
+            scale=$(cat "$d/scale.txt" 2>/dev/null || true)
+            echo "| $day | [$short](https://github.com/$ENGINE/commit/$sha) | $system$note | ${scale:-unknown} |" >>platforms/README.md
+          done
+          # Newest pictures first, at most 12 in the top README.
+          { sed -n '1,/<!-- latest -->/p' README.md
+            { printf '%s' "$latest"; sed -n '/<!-- latest -->/,/<!-- \/latest -->/p' README.md | sed '1d;$d'; } | head -12
+            sed -n '/<!-- \/latest -->/,$p' README.md; } >README.new
+          mv README.new README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add platforms README.md
+          git commit -m "Pictures from the three systems, engine ${{ needs.prepare.outputs.sha }}"
+          git pull --rebase origin main && git push origin HEAD:main
