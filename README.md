@@ -10,6 +10,7 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 <!-- latest -->
 <a href="m2/2026-10-14-pr87-beach-window.png"><img src="m2/2026-10-14-pr87-beach-window.png" width="320" alt="2026-10-14-pr87-beach-window.png"></a>
+<a href="m2/2026-10-14-pr87-beach-window-rotation1.png"><img src="m2/2026-10-14-pr87-beach-window-rotation1.png" width="320" alt="2026-10-14-pr87-beach-window-rotation1.png"></a>
 <a href="m2/2026-10-14-pr72-beach-full.png"><img src="m2/2026-10-14-pr72-beach-full.png" width="320" alt="2026-10-14-pr72-beach-full.png"></a>
 <a href="m2/2026-10-14-pr72-beach-full-rotation1.png"><img src="m2/2026-10-14-pr72-beach-full-rotation1.png" width="320" alt="2026-10-14-pr72-beach-full-rotation1.png"></a>
 <a href="m2/2026-10-14-pr72-ancient-full.png"><img src="m2/2026-10-14-pr72-ancient-full.png" width="320" alt="2026-10-14-pr72-ancient-full.png"></a>
