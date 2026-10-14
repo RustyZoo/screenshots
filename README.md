@@ -16,10 +16,5 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 <a href="platforms/2026-10-14-macos-desktop.png"><img src="platforms/2026-10-14-macos-desktop.png" width="320" alt="2026-10-14-macos-desktop.png"></a>
 <a href="platforms/2026-10-14-linux-shot.png"><img src="platforms/2026-10-14-linux-shot.png" width="320" alt="2026-10-14-linux-shot.png"></a>
 <a href="platforms/2026-10-14-linux-desktop.png"><img src="platforms/2026-10-14-linux-desktop.png" width="320" alt="2026-10-14-linux-desktop.png"></a>
-<a href="platforms/2026-10-14-windows-shot.png"><img src="platforms/2026-10-14-windows-shot.png" width="320" alt="2026-10-14-windows-shot.png"></a>
-<a href="platforms/2026-10-14-macos-shot.png"><img src="platforms/2026-10-14-macos-shot.png" width="320" alt="2026-10-14-macos-shot.png"></a>
-<a href="platforms/2026-10-14-macos-desktop.png"><img src="platforms/2026-10-14-macos-desktop.png" width="320" alt="2026-10-14-macos-desktop.png"></a>
-<a href="platforms/2026-10-14-linux-shot.png"><img src="platforms/2026-10-14-linux-shot.png" width="320" alt="2026-10-14-linux-shot.png"></a>
-<a href="platforms/2026-10-14-linux-desktop.png"><img src="platforms/2026-10-14-linux-desktop.png" width="320" alt="2026-10-14-linux-desktop.png"></a>
 <a href="m4/2026-10-14-pr129-beach-window-frame.png"><img src="m4/2026-10-14-pr129-beach-window-frame.png" width="320" alt="2026-10-14-pr129-beach-window-frame.png"></a>
 <!-- /latest -->

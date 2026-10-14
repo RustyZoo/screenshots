@@ -7,9 +7,6 @@ black is not kept.
 
 | Date | Engine commit | System | Display scale |
 | --- | --- | --- | --- |
-| 2026-10-14 | [a851ba9](https://github.com/RustyZoo/RustyZoo/commit/a851ba97fb91ff80636218c8ba0de237adfeb065) | windows | 1 (pixel density 1) |
-| 2026-10-14 | [a851ba9](https://github.com/RustyZoo/RustyZoo/commit/a851ba97fb91ff80636218c8ba0de237adfeb065) | macos | 1 (pixel density 1) |
-| 2026-10-14 | [a851ba9](https://github.com/RustyZoo/RustyZoo/commit/a851ba97fb91ff80636218c8ba0de237adfeb065) | linux | 1 (pixel density 1) |
-| 2026-10-14 | [a851ba9](https://github.com/RustyZoo/RustyZoo/commit/a851ba97fb91ff80636218c8ba0de237adfeb065) | windows | 1 (pixel density 1) |
-| 2026-10-14 | [a851ba9](https://github.com/RustyZoo/RustyZoo/commit/a851ba97fb91ff80636218c8ba0de237adfeb065) | macos | 1 (pixel density 1) |
-| 2026-10-14 | [a851ba9](https://github.com/RustyZoo/RustyZoo/commit/a851ba97fb91ff80636218c8ba0de237adfeb065) | linux | 1 (pixel density 1) |
+| 2026-10-14 | [1309479](https://github.com/RustyZoo/RustyZoo/commit/1309479281db169be0ef1a20cf032a5675e8b529) | windows | 1 (pixel density 1) |
+| 2026-10-14 | [1309479](https://github.com/RustyZoo/RustyZoo/commit/1309479281db169be0ef1a20cf032a5675e8b529) | macos | 1 (pixel density 1) |
+| 2026-10-14 | [1309479](https://github.com/RustyZoo/RustyZoo/commit/1309479281db169be0ef1a20cf032a5675e8b529) | linux | 1 (pixel density 1) |
