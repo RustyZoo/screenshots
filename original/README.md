@@ -12,3 +12,4 @@ Pictures of the original game (c) Microsoft, next to RustyZoo's.
 - [2026-10-14-pr117-beach-zoom-in.png](../original/2026-10-14-pr117-beach-zoom-in.png) matches [m3/2026-10-14-pr117-beach-zoom-in.png](../m3/2026-10-14-pr117-beach-zoom-in.png).
 - [2026-10-14-pr117-beach-zoom-in-rotation1.png](../original/2026-10-14-pr117-beach-zoom-in-rotation1.png) matches [m3/2026-10-14-pr117-beach-zoom-in-rotation1.png](../m3/2026-10-14-pr117-beach-zoom-in-rotation1.png).
 - [2026-10-14-pr117-beach-rotation2.png](../original/2026-10-14-pr117-beach-rotation2.png) matches [m3/2026-10-14-pr117-beach-rotation2.png](../m3/2026-10-14-pr117-beach-rotation2.png).
+- [2026-10-14-pr118-beach-run-frame.png](../original/2026-10-14-pr118-beach-run-frame.png) matches [m3/2026-10-14-pr118-beach-run-frame.png](../m3/2026-10-14-pr118-beach-run-frame.png).
