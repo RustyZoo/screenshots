@@ -4,3 +4,4 @@ One line per picture: date, pull request, command.
 - 2026-10-14 [#72](https://github.com/RustyZoo/RustyZoo/pull/72) [2026-10-14-pr72-beach-full.png](2026-10-14-pr72-beach-full.png): `rustyzoo render-map maps/beach.zoo <out>`
 - 2026-10-14 [#72](https://github.com/RustyZoo/RustyZoo/pull/72) [2026-10-14-pr72-beach-full-rotation1.png](2026-10-14-pr72-beach-full-rotation1.png): `rustyzoo render-map maps/beach.zoo <out> --rotation 1`
 - 2026-10-14 [#72](https://github.com/RustyZoo/RustyZoo/pull/72) [2026-10-14-pr72-ancient-full.png](2026-10-14-pr72-ancient-full.png): `rustyzoo render-map maps/ancient.zoo <out>`
+- 2026-10-14 [#87](https://github.com/RustyZoo/RustyZoo/pull/87) [2026-10-14-pr87-beach-window.png](2026-10-14-pr87-beach-window.png): `rustyzoo render-map maps/beach.zoo <out> --view 1216 16 1024 768` Original: [2026-10-14-pr87-beach-window.png](../original/2026-10-14-pr87-beach-window.png)
