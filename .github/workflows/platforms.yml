@@ -173,6 +173,9 @@ jobs:
               latest="$latest<a href=\"$dest\"><img src=\"$dest\" width=\"320\" alt=\"$day-$system-$what.png\"></a>"$'\n'
             done
             scale=$(cat "$d/scale.txt" 2>/dev/null || true)
+            # A second run of the same day replaces the rows and pictures of the first.
+            grep -v "^| $day | .* | $system" platforms/README.md >"$RUNNER_TEMP/t" && mv "$RUNNER_TEMP/t" platforms/README.md || true
+            grep -v "platforms/$day-$system-" README.md >"$RUNNER_TEMP/t" && mv "$RUNNER_TEMP/t" README.md || true
             echo "| $day | [$short](https://github.com/$ENGINE/commit/$sha) | $system$note | ${scale:-unknown} |" >>platforms/README.md
           done
           # Newest pictures first, at most 12 in the top README.
