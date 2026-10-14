@@ -8,11 +8,12 @@ RustyZoo is not affiliated with Microsoft. The pictures show Zoo Tycoon graphics
 RustyZoo from the game's own data or, in `original/`, by the original game.
 
 ## Latest
+
 <!-- latest -->
-<a href="m2/2026-10-14-pr87-sm-aqua-window.png"><img src="m2/2026-10-14-pr87-sm-aqua-window.png" width="320" alt="2026-10-14-pr87-sm-aqua-window.png"></a>
-<a href="m2/2026-10-14-pr87-lavaland-window.png"><img src="m2/2026-10-14-pr87-lavaland-window.png" width="320" alt="2026-10-14-pr87-lavaland-window.png"></a>
-<a href="m2/2026-10-14-pr87-beach-window.png"><img src="m2/2026-10-14-pr87-beach-window.png" width="320" alt="2026-10-14-pr87-beach-window.png"></a>
-<a href="m2/2026-10-14-pr87-beach-window-rotation3.png"><img src="m2/2026-10-14-pr87-beach-window-rotation3.png" width="320" alt="2026-10-14-pr87-beach-window-rotation3.png"></a>
-<a href="m2/2026-10-14-pr87-beach-window-rotation2.png"><img src="m2/2026-10-14-pr87-beach-window-rotation2.png" width="320" alt="2026-10-14-pr87-beach-window-rotation2.png"></a>
-<a href="m2/2026-10-14-pr87-beach-window-rotation1.png"><img src="m2/2026-10-14-pr87-beach-window-rotation1.png" width="320" alt="2026-10-14-pr87-beach-window-rotation1.png"></a>
+<a href="m3/2026-10-14-pr118-beach-run-frame.png"><img src="m3/2026-10-14-pr118-beach-run-frame.png" width="320" alt="2026-10-14-pr118-beach-run-frame.png"></a>
+<a href="m3/2026-10-14-pr117-beach-zoom-out.png"><img src="m3/2026-10-14-pr117-beach-zoom-out.png" width="320" alt="2026-10-14-pr117-beach-zoom-out.png"></a>
+<a href="m3/2026-10-14-pr117-beach-zoom-out-rotation1.png"><img src="m3/2026-10-14-pr117-beach-zoom-out-rotation1.png" width="320" alt="2026-10-14-pr117-beach-zoom-out-rotation1.png"></a>
+<a href="m3/2026-10-14-pr117-beach-zoom-in.png"><img src="m3/2026-10-14-pr117-beach-zoom-in.png" width="320" alt="2026-10-14-pr117-beach-zoom-in.png"></a>
+<a href="m3/2026-10-14-pr117-beach-zoom-in-rotation1.png"><img src="m3/2026-10-14-pr117-beach-zoom-in-rotation1.png" width="320" alt="2026-10-14-pr117-beach-zoom-in-rotation1.png"></a>
+<a href="m3/2026-10-14-pr117-beach-rotation2.png"><img src="m3/2026-10-14-pr117-beach-rotation2.png" width="320" alt="2026-10-14-pr117-beach-rotation2.png"></a>
 <!-- /latest -->
