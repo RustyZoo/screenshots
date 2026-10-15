@@ -20,3 +20,4 @@ Pictures of the original game (c) Microsoft, next to RustyZoo's.
 - [2026-10-15-pr183-freeform-screen.png](../original/2026-10-15-pr183-freeform-screen.png) matches [m4/2026-10-15-pr183-freeform-screen.png](../m4/2026-10-15-pr183-freeform-screen.png).
 - [2026-10-15-pr184-leave-question.png](../original/2026-10-15-pr184-leave-question.png) matches [m4/2026-10-15-pr184-leave-question.png](../m4/2026-10-15-pr184-leave-question.png).
 - [2026-10-15-pr219-build-panel.png](../original/2026-10-15-pr219-build-panel.png) matches [m5/2026-10-15-pr219-build-panel.png](../m5/2026-10-15-pr219-build-panel.png).
+- [2026-10-15-pr220-finances.png](../original/2026-10-15-pr220-finances.png) matches [m5/2026-10-15-pr220-finances.png](../m5/2026-10-15-pr220-finances.png).
