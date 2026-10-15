@@ -25,3 +25,4 @@ Pictures of the original game (c) Microsoft, next to RustyZoo's.
 - [2026-10-15-pr226-terrain-paint.png](../original/2026-10-15-pr226-terrain-paint.png) matches [m5/2026-10-15-pr226-terrain-paint.png](../m5/2026-10-15-pr226-terrain-paint.png).
 - [2026-10-15-pr231-path-drag-held.png](../original/2026-10-15-pr231-path-drag-held.png) matches [m5/2026-10-15-pr231-path-drag-held.png](../m5/2026-10-15-pr231-path-drag-held.png).
 - [2026-10-15-pr231-path-drag-placed.png](../original/2026-10-15-pr231-path-drag-placed.png) matches [m5/2026-10-15-pr231-path-drag-placed.png](../m5/2026-10-15-pr231-path-drag-placed.png).
+- [2026-10-15-pr232-paint-pointer-text.png](../original/2026-10-15-pr232-paint-pointer-text.png) matches [m5/2026-10-15-pr232-paint-pointer-text.png](../m5/2026-10-15-pr232-paint-pointer-text.png).
