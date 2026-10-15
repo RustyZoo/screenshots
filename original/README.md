@@ -22,3 +22,4 @@ Pictures of the original game (c) Microsoft, next to RustyZoo's.
 - [2026-10-15-pr219-build-panel.png](../original/2026-10-15-pr219-build-panel.png) matches [m5/2026-10-15-pr219-build-panel.png](../m5/2026-10-15-pr219-build-panel.png).
 - [2026-10-15-pr220-finances.png](../original/2026-10-15-pr220-finances.png) matches [m5/2026-10-15-pr220-finances.png](../m5/2026-10-15-pr220-finances.png).
 - [2026-10-15-pr225-pending-object-invalid.png](../original/2026-10-15-pr225-pending-object-invalid.png) matches [m5/2026-10-15-pr225-pending-object-invalid.png](../m5/2026-10-15-pr225-pending-object-invalid.png).
+- [2026-10-15-pr226-terrain-paint.png](../original/2026-10-15-pr226-terrain-paint.png) matches [m5/2026-10-15-pr226-terrain-paint.png](../m5/2026-10-15-pr226-terrain-paint.png).
