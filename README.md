@@ -11,9 +11,9 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 
 <!-- latest -->
 <a href="m5/2026-10-15-pr260-undo-path.png"><img src="m5/2026-10-15-pr260-undo-path.png" width="320" alt="2026-10-15-pr260-undo-path.png"></a>
+<a href="m5/2026-10-15-pr260-undo-area.png"><img src="m5/2026-10-15-pr260-undo-area.png" width="320" alt="2026-10-15-pr260-undo-area.png"></a>
 <a href="m5/2026-10-15-pr259-bulldozer-pixel-pick.png"><img src="m5/2026-10-15-pr259-bulldozer-pixel-pick.png" width="320" alt="2026-10-15-pr259-bulldozer-pixel-pick.png"></a>
 <a href="m5/2026-10-15-pr256-tank-name-dialog.png"><img src="m5/2026-10-15-pr256-tank-name-dialog.png" width="320" alt="2026-10-15-pr256-tank-name-dialog.png"></a>
 <a href="m5/2026-10-15-pr256-tank-built.png"><img src="m5/2026-10-15-pr256-tank-built.png" width="320" alt="2026-10-15-pr256-tank-built.png"></a>
 <a href="m5/2026-10-15-pr254-gate-tool.png"><img src="m5/2026-10-15-pr254-gate-tool.png" width="320" alt="2026-10-15-pr254-gate-tool.png"></a>
-<a href="m5/2026-10-15-pr251-place-building-hill.png"><img src="m5/2026-10-15-pr251-place-building-hill.png" width="320" alt="2026-10-15-pr251-place-building-hill.png"></a>
 <!-- /latest -->
