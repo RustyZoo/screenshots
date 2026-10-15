@@ -10,16 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
-<a href="platforms/2026-10-15-windows-shot.png"><img src="platforms/2026-10-15-windows-shot.png" width="320" alt="2026-10-15-windows-shot.png"></a>
-<a href="platforms/2026-10-15-windows-desktop.png"><img src="platforms/2026-10-15-windows-desktop.png" width="320" alt="2026-10-15-windows-desktop.png"></a>
-<a href="platforms/2026-10-15-macos-shot.png"><img src="platforms/2026-10-15-macos-shot.png" width="320" alt="2026-10-15-macos-shot.png"></a>
-<a href="platforms/2026-10-15-macos-desktop.png"><img src="platforms/2026-10-15-macos-desktop.png" width="320" alt="2026-10-15-macos-desktop.png"></a>
-<a href="platforms/2026-10-15-linux-shot.png"><img src="platforms/2026-10-15-linux-shot.png" width="320" alt="2026-10-15-linux-shot.png"></a>
-<a href="platforms/2026-10-15-linux-desktop.png"><img src="platforms/2026-10-15-linux-desktop.png" width="320" alt="2026-10-15-linux-desktop.png"></a>
+<a href="m6/2026-10-15-pr321-beach-16bit.png"><img src="m6/2026-10-15-pr321-beach-16bit.png" width="320" alt="2026-10-15-pr321-beach-16bit.png"></a>
 <a href="m5/2026-10-15-pr263-tank-water.png"><img src="m5/2026-10-15-pr263-tank-water.png" width="320" alt="2026-10-15-pr263-tank-water.png"></a>
 <a href="m5/2026-10-15-pr260-undo-path.png"><img src="m5/2026-10-15-pr260-undo-path.png" width="320" alt="2026-10-15-pr260-undo-path.png"></a>
 <a href="m5/2026-10-15-pr260-undo-area.png"><img src="m5/2026-10-15-pr260-undo-area.png" width="320" alt="2026-10-15-pr260-undo-area.png"></a>
 <a href="m5/2026-10-15-pr259-bulldozer-pixel-pick.png"><img src="m5/2026-10-15-pr259-bulldozer-pixel-pick.png" width="320" alt="2026-10-15-pr259-bulldozer-pixel-pick.png"></a>
 <a href="m5/2026-10-15-pr256-tank-name-dialog.png"><img src="m5/2026-10-15-pr256-tank-name-dialog.png" width="320" alt="2026-10-15-pr256-tank-name-dialog.png"></a>
-<a href="m5/2026-10-15-pr256-tank-built.png"><img src="m5/2026-10-15-pr256-tank-built.png" width="320" alt="2026-10-15-pr256-tank-built.png"></a>
 <!-- /latest -->

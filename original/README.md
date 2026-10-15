@@ -35,3 +35,4 @@ Pictures of the original game (c) Microsoft, next to RustyZoo's.
 - [2026-10-15-pr260-undo-path.png](../original/2026-10-15-pr260-undo-path.png) matches [m5/2026-10-15-pr260-undo-path.png](../m5/2026-10-15-pr260-undo-path.png).
 - [2026-10-15-pr260-undo-area.png](../original/2026-10-15-pr260-undo-area.png) matches [m5/2026-10-15-pr260-undo-area.png](../m5/2026-10-15-pr260-undo-area.png).
 - [2026-10-15-pr263-tank-water.png](../original/2026-10-15-pr263-tank-water.png) matches [m5/2026-10-15-pr263-tank-water.png](../m5/2026-10-15-pr263-tank-water.png).
+- [2026-10-15-pr321-beach-16bit.png](../original/2026-10-15-pr321-beach-16bit.png) matches [m6/2026-10-15-pr321-beach-16bit.png](../m6/2026-10-15-pr321-beach-16bit.png).
