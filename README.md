@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m5/2026-10-15-pr254-gate-tool.png"><img src="m5/2026-10-15-pr254-gate-tool.png" width="320" alt="2026-10-15-pr254-gate-tool.png"></a>
 <a href="m5/2026-10-15-pr251-place-building-hill.png"><img src="m5/2026-10-15-pr251-place-building-hill.png" width="320" alt="2026-10-15-pr251-place-building-hill.png"></a>
 <a href="m5/2026-10-15-pr251-place-building-flat.png"><img src="m5/2026-10-15-pr251-place-building-flat.png" width="320" alt="2026-10-15-pr251-place-building-flat.png"></a>
 <a href="m5/2026-10-15-pr249-fence-drag-placed.png"><img src="m5/2026-10-15-pr249-fence-drag-placed.png" width="320" alt="2026-10-15-pr249-fence-drag-placed.png"></a>
 <a href="m5/2026-10-15-pr248-exhibit-name-dialog.png"><img src="m5/2026-10-15-pr248-exhibit-name-dialog.png" width="320" alt="2026-10-15-pr248-exhibit-name-dialog.png"></a>
 <a href="m5/2026-10-15-pr248-exhibit-gate.png"><img src="m5/2026-10-15-pr248-exhibit-gate.png" width="320" alt="2026-10-15-pr248-exhibit-gate.png"></a>
-<a href="m5/2026-10-15-pr247-bulldozer-area.png"><img src="m5/2026-10-15-pr247-bulldozer-area.png" width="320" alt="2026-10-15-pr247-bulldozer-area.png"></a>
 <!-- /latest -->
