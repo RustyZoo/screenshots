@@ -11,9 +11,9 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 
 <!-- latest -->
 <a href="m5/2026-10-15-pr225-pending-object.png"><img src="m5/2026-10-15-pr225-pending-object.png" width="320" alt="2026-10-15-pr225-pending-object.png"></a>
+<a href="m5/2026-10-15-pr225-pending-object-invalid.png"><img src="m5/2026-10-15-pr225-pending-object-invalid.png" width="320" alt="2026-10-15-pr225-pending-object-invalid.png"></a>
 <a href="m5/2026-10-15-pr220-finances.png"><img src="m5/2026-10-15-pr220-finances.png" width="320" alt="2026-10-15-pr220-finances.png"></a>
 <a href="m5/2026-10-15-pr219-build-panel.png"><img src="m5/2026-10-15-pr219-build-panel.png" width="320" alt="2026-10-15-pr219-build-panel.png"></a>
 <a href="m4/2026-10-15-pr184-leave-question.png"><img src="m4/2026-10-15-pr184-leave-question.png" width="320" alt="2026-10-15-pr184-leave-question.png"></a>
 <a href="m4/2026-10-15-pr184-freeform-game-started.png"><img src="m4/2026-10-15-pr184-freeform-game-started.png" width="320" alt="2026-10-15-pr184-freeform-game-started.png"></a>
-<a href="m4/2026-10-15-pr183-freeform-screen.png"><img src="m4/2026-10-15-pr183-freeform-screen.png" width="320" alt="2026-10-15-pr183-freeform-screen.png"></a>
 <!-- /latest -->
