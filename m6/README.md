@@ -14,3 +14,4 @@ One line per picture: date, pull request, command.
 - 2026-10-16 [#377](https://github.com/RustyZoo/RustyZoo/pull/377) [2026-10-16-pr377-exhibit-panel-status-after-row.png](2026-10-16-pr377-exhibit-panel-status-after-row.png): `rustyzoo run maps/scn01.zoo --passes 12 --shot <out>` Script: `1 mouse 965 750;2 down;3 up;4 mouse 900 455;5 down;6 up`.
 - 2026-10-16 [#367](https://github.com/RustyZoo/RustyZoo/pull/367) [2026-10-16-pr367-units-walk.png](2026-10-16-pr367-units-walk.png): `rustyzoo run maps/med_kids.zoo --passes 300 --shot <out>`
 - 2026-10-16 [#378](https://github.com/RustyZoo/RustyZoo/pull/378) [2026-10-16-pr378-guests-arrive.png](2026-10-16-pr378-guests-arrive.png): `rustyzoo run maps/scn01a.zoo --passes 600 --shot <out>`
+- 2026-10-16 [#379](https://github.com/RustyZoo/RustyZoo/pull/379) [2026-10-16-pr379-food-pile.png](2026-10-16-pr379-food-pile.png): `rustyzoo run maps/scn01a.zoo --passes 5 --shot <out>`
