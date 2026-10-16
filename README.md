@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m6/2026-10-16-pr377-exhibit-panel-status-after-row.png"><img src="m6/2026-10-16-pr377-exhibit-panel-status-after-row.png" width="320" alt="2026-10-16-pr377-exhibit-panel-status-after-row.png"></a>
 <a href="m6/2026-10-16-pr366-animal-panel.png"><img src="m6/2026-10-16-pr366-animal-panel.png" width="320" alt="2026-10-16-pr366-animal-panel.png"></a>
 <a href="m6/2026-10-16-pr364-carry-camel.png"><img src="m6/2026-10-16-pr364-carry-camel.png" width="320" alt="2026-10-16-pr364-carry-camel.png"></a>
 <a href="m6/2026-10-16-pr356-status-bars.png"><img src="m6/2026-10-16-pr356-status-bars.png" width="320" alt="2026-10-16-pr356-status-bars.png"></a>
 <a href="m6/2026-10-16-pr354-hire-panel.png"><img src="m6/2026-10-16-pr354-hire-panel.png" width="320" alt="2026-10-16-pr354-hire-panel.png"></a>
 <a href="m6/2026-10-16-pr347-exhibit-recommendations.png"><img src="m6/2026-10-16-pr347-exhibit-recommendations.png" width="320" alt="2026-10-16-pr347-exhibit-recommendations.png"></a>
-<a href="m6/2026-10-16-pr347-exhibit-panel.png"><img src="m6/2026-10-16-pr347-exhibit-panel.png" width="320" alt="2026-10-16-pr347-exhibit-panel.png"></a>
 <!-- /latest -->
