@@ -15,3 +15,4 @@ One line per picture: date, pull request, command.
 - 2026-10-16 [#367](https://github.com/RustyZoo/RustyZoo/pull/367) [2026-10-16-pr367-units-walk.png](2026-10-16-pr367-units-walk.png): `rustyzoo run maps/med_kids.zoo --passes 300 --shot <out>`
 - 2026-10-16 [#378](https://github.com/RustyZoo/RustyZoo/pull/378) [2026-10-16-pr378-guests-arrive.png](2026-10-16-pr378-guests-arrive.png): `rustyzoo run maps/scn01a.zoo --passes 600 --shot <out>`
 - 2026-10-16 [#379](https://github.com/RustyZoo/RustyZoo/pull/379) [2026-10-16-pr379-food-pile.png](2026-10-16-pr379-food-pile.png): `rustyzoo run maps/scn01a.zoo --passes 5 --shot <out>`
+- 2026-10-16 [#380](https://github.com/RustyZoo/RustyZoo/pull/380) [2026-10-16-pr380-tank-swimmers.png](2026-10-16-pr380-tank-swimmers.png): `rustyzoo run maps/med_kids.zoo --passes 300 --shot <out>`
