@@ -42,3 +42,4 @@ Pictures of the original game (c) Microsoft, next to RustyZoo's.
 - [2026-10-16-pr336-unit-animations.png](../original/2026-10-16-pr336-unit-animations.png) matches [m6/2026-10-16-pr336-unit-animations.png](../m6/2026-10-16-pr336-unit-animations.png).
 - [2026-10-16-pr356-status-bars.png](../original/2026-10-16-pr356-status-bars.png) matches [m6/2026-10-16-pr356-status-bars.png](../m6/2026-10-16-pr356-status-bars.png).
 - [2026-10-16-pr366-animal-panel.png](../original/2026-10-16-pr366-animal-panel.png) matches [m6/2026-10-16-pr366-animal-panel.png](../m6/2026-10-16-pr366-animal-panel.png).
+- [2026-10-17-pr402-selection-marker.png](../original/2026-10-17-pr402-selection-marker.png) matches [m6/2026-10-17-pr402-selection-marker.png](../m6/2026-10-17-pr402-selection-marker.png).
