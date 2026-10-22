@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m6/2026-10-22-pr564-building-panel-picture.png"><img src="m6/2026-10-22-pr564-building-panel-picture.png" width="320" alt="2026-10-22-pr564-building-panel-picture.png"></a>
 <a href="m6/2026-10-21-pr543-building-price-panel.png"><img src="m6/2026-10-21-pr543-building-price-panel.png" width="320" alt="2026-10-21-pr543-building-price-panel.png"></a>
 <a href="m6/2026-10-21-pr530-reaction-faces.png"><img src="m6/2026-10-21-pr530-reaction-faces.png" width="320" alt="2026-10-21-pr530-reaction-faces.png"></a>
 <a href="m6/2026-10-20-pr497-animal-panel-thoughts.png"><img src="m6/2026-10-20-pr497-animal-panel-thoughts.png" width="320" alt="2026-10-20-pr497-animal-panel-thoughts.png"></a>
 <a href="m6/2026-10-20-pr475-tank-ripples.png"><img src="m6/2026-10-20-pr475-tank-ripples.png" width="320" alt="2026-10-20-pr475-tank-ripples.png"></a>
 <a href="m6/2026-10-20-pr466-staff-panel-follow.png"><img src="m6/2026-10-20-pr466-staff-panel-follow.png" width="320" alt="2026-10-20-pr466-staff-panel-follow.png"></a>
-<a href="m6/2026-10-20-pr466-guest-panel-follow.png"><img src="m6/2026-10-20-pr466-guest-panel-follow.png" width="320" alt="2026-10-20-pr466-guest-panel-follow.png"></a>
 <!-- /latest -->
