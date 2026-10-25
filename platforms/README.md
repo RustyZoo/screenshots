@@ -13,3 +13,6 @@ black is not kept.
 | 2026-10-15 | [1ea61a5](https://github.com/RustyZoo/RustyZoo/commit/1ea61a5ee6d707737fb15386117496939bc6a630) | windows | 1 (pixel density 1) |
 | 2026-10-15 | [1ea61a5](https://github.com/RustyZoo/RustyZoo/commit/1ea61a5ee6d707737fb15386117496939bc6a630) | macos | 1 (pixel density 1) |
 | 2026-10-15 | [1ea61a5](https://github.com/RustyZoo/RustyZoo/commit/1ea61a5ee6d707737fb15386117496939bc6a630) | linux | 1 (pixel density 1) |
+| 2026-10-25 | [10e4aa5](https://github.com/RustyZoo/RustyZoo/commit/10e4aa5fdc3178c2676243ce60c48784f2f24e68) | windows | 1 (pixel density 1) |
+| 2026-10-25 | [10e4aa5](https://github.com/RustyZoo/RustyZoo/commit/10e4aa5fdc3178c2676243ce60c48784f2f24e68) | macos | 1 (pixel density 1) |
+| 2026-10-25 | [10e4aa5](https://github.com/RustyZoo/RustyZoo/commit/10e4aa5fdc3178c2676243ce60c48784f2f24e68) | linux | 1 (pixel density 1) |
