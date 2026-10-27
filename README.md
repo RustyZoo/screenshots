@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m7/2026-10-28-pr772-awards-page.png"><img src="m7/2026-10-28-pr772-awards-page.png" width="320" alt="2026-10-28-pr772-awards-page.png"></a>
 <a href="m7/2026-10-27-pr756-selected-building-marker.png"><img src="m7/2026-10-27-pr756-selected-building-marker.png" width="320" alt="2026-10-27-pr756-selected-building-marker.png"></a>
 <a href="m7/2026-10-27-pr738-tank-panel.png"><img src="m7/2026-10-27-pr738-tank-panel.png" width="320" alt="2026-10-27-pr738-tank-panel.png"></a>
 <a href="m7/2026-10-27-pr738-tank-panel-drained.png"><img src="m7/2026-10-27-pr738-tank-panel-drained.png" width="320" alt="2026-10-27-pr738-tank-panel-drained.png"></a>
 <a href="m7/2026-10-26-pr686-save-dialog.png"><img src="m7/2026-10-26-pr686-save-dialog.png" width="320" alt="2026-10-26-pr686-save-dialog.png"></a>
 <a href="m7/2026-10-26-pr686-load-saved-list.png"><img src="m7/2026-10-26-pr686-load-saved-list.png" width="320" alt="2026-10-26-pr686-load-saved-list.png"></a>
-<a href="m6/2026-10-23-pr593-status-bar-date.png"><img src="m6/2026-10-23-pr593-status-bar-date.png" width="320" alt="2026-10-23-pr593-status-bar-date.png"></a>
 <!-- /latest -->
