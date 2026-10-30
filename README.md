@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m7/2026-10-30-pr868-follow-button-anim.png"><img src="m7/2026-10-30-pr868-follow-button-anim.png" width="320" alt="2026-10-30-pr868-follow-button-anim.png"></a>
 <a href="m7/2026-10-30-pr844-expansion-selector.png"><img src="m7/2026-10-30-pr844-expansion-selector.png" width="320" alt="2026-10-30-pr844-expansion-selector.png"></a>
 <a href="m7/2026-10-29-pr833-research-panel.png"><img src="m7/2026-10-29-pr833-research-panel.png" width="320" alt="2026-10-29-pr833-research-panel.png"></a>
 <a href="m7/2026-10-29-pr824-tutorial-popup.png"><img src="m7/2026-10-29-pr824-tutorial-popup.png" width="320" alt="2026-10-29-pr824-tutorial-popup.png"></a>
 <a href="m7/2026-10-29-pr816-tank-filter.png"><img src="m7/2026-10-29-pr816-tank-filter.png" width="320" alt="2026-10-29-pr816-tank-filter.png"></a>
 <a href="m7/2026-10-29-pr814-guests-on-picnic-tables.png"><img src="m7/2026-10-29-pr814-guests-on-picnic-tables.png" width="320" alt="2026-10-29-pr814-guests-on-picnic-tables.png"></a>
-<a href="m7/2026-10-29-pr802-tutorial-popup.png"><img src="m7/2026-10-29-pr802-tutorial-popup.png" width="320" alt="2026-10-29-pr802-tutorial-popup.png"></a>
 <!-- /latest -->
