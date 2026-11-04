@@ -11,9 +11,9 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 
 <!-- latest -->
 <a href="m7/2026-11-04-pr1169-show-portal-opening.png"><img src="m7/2026-11-04-pr1169-show-portal-opening.png" width="320" alt="2026-11-04-pr1169-show-portal-opening.png"></a>
+<a href="m7/2026-11-04-pr1114-dolphin-show-tricks.png"><img src="m7/2026-11-04-pr1114-dolphin-show-tricks.png" width="320" alt="2026-11-04-pr1114-dolphin-show-tricks.png"></a>
 <a href="m7/2026-11-03-pr1012-keeper-crates-escaped-lion.png"><img src="m7/2026-11-03-pr1012-keeper-crates-escaped-lion.png" width="320" alt="2026-11-03-pr1012-keeper-crates-escaped-lion.png"></a>
 <a href="m7/2026-11-03-pr986-guests-flee-loose-lion.png"><img src="m7/2026-11-03-pr986-guests-flee-loose-lion.png" width="320" alt="2026-11-03-pr986-guests-flee-loose-lion.png"></a>
 <a href="m7/2026-11-03-pr972-drt-base-helicopter.png"><img src="m7/2026-11-03-pr972-drt-base-helicopter.png" width="320" alt="2026-11-03-pr972-drt-base-helicopter.png"></a>
 <a href="m7/2026-11-03-pr949-escaped-lion-picked-up.png"><img src="m7/2026-11-03-pr949-escaped-lion-picked-up.png" width="320" alt="2026-11-03-pr949-escaped-lion-picked-up.png"></a>
-<a href="m7/2026-11-03-pr948-exhibit-animals-tab.png"><img src="m7/2026-11-03-pr948-exhibit-animals-tab.png" width="320" alt="2026-11-03-pr948-exhibit-animals-tab.png"></a>
 <!-- /latest -->
