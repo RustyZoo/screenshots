@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m7/2026-11-07-pr1330-tank-wall-ripples-b.png"><img src="m7/2026-11-07-pr1330-tank-wall-ripples-b.png" width="320" alt="2026-11-07-pr1330-tank-wall-ripples-b.png"></a>
 <a href="m7/2026-11-07-pr1330-tank-wall-ripples-a.png"><img src="m7/2026-11-07-pr1330-tank-wall-ripples-a.png" width="320" alt="2026-11-07-pr1330-tank-wall-ripples-a.png"></a>
 <a href="m7/2026-11-06-pr1303-tank-filter-bubbles.png"><img src="m7/2026-11-06-pr1303-tank-filter-bubbles.png" width="320" alt="2026-11-06-pr1303-tank-filter-bubbles.png"></a>
 <a href="m7/2026-11-06-pr1295-message-history.png"><img src="m7/2026-11-06-pr1295-message-history.png" width="320" alt="2026-11-06-pr1295-message-history.png"></a>
 <a href="m7/2026-11-06-pr1285-scenery-idle-b.png"><img src="m7/2026-11-06-pr1285-scenery-idle-b.png" width="320" alt="2026-11-06-pr1285-scenery-idle-b.png"></a>
 <a href="m7/2026-11-06-pr1285-scenery-idle-a.png"><img src="m7/2026-11-06-pr1285-scenery-idle-a.png" width="320" alt="2026-11-06-pr1285-scenery-idle-a.png"></a>
-<a href="m7/2026-11-06-pr1267-show-panel.png"><img src="m7/2026-11-06-pr1267-show-panel.png" width="320" alt="2026-11-06-pr1267-show-panel.png"></a>
 <!-- /latest -->
