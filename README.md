@@ -12,8 +12,8 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 <!-- latest -->
 <a href="m7/2026-11-10-pr1514-options-tooltips.png"><img src="m7/2026-11-10-pr1514-options-tooltips.png" width="320" alt="2026-11-10-pr1514-options-tooltips.png"></a>
 <a href="m7/2026-11-10-pr1514-options-sound-video.png"><img src="m7/2026-11-10-pr1514-options-sound-video.png" width="320" alt="2026-11-10-pr1514-options-sound-video.png"></a>
+<a href="m7/2026-11-10-pr1514-options-advanced.png"><img src="m7/2026-11-10-pr1514-options-advanced.png" width="320" alt="2026-11-10-pr1514-options-advanced.png"></a>
 <a href="m7/2026-11-09-pr1512-zoo-status-info.png"><img src="m7/2026-11-09-pr1512-zoo-status-info.png" width="320" alt="2026-11-09-pr1512-zoo-status-info.png"></a>
 <a href="m7/2026-11-09-pr1512-zoo-status-graphs.png"><img src="m7/2026-11-09-pr1512-zoo-status-graphs.png" width="320" alt="2026-11-09-pr1512-zoo-status-graphs.png"></a>
 <a href="m7/2026-11-09-pr1512-zoo-status-commerce.png"><img src="m7/2026-11-09-pr1512-zoo-status-commerce.png" width="320" alt="2026-11-09-pr1512-zoo-status-commerce.png"></a>
-<a href="m7/2026-11-09-pr1511-hide-guests.png"><img src="m7/2026-11-09-pr1511-hide-guests.png" width="320" alt="2026-11-09-pr1511-hide-guests.png"></a>
 <!-- /latest -->
