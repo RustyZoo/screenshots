@@ -11,9 +11,9 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 
 <!-- latest -->
 <a href="m7/2026-11-09-pr1511-hide-foliage.png"><img src="m7/2026-11-09-pr1511-hide-foliage.png" width="320" alt="2026-11-09-pr1511-hide-foliage.png"></a>
+<a href="m7/2026-11-09-pr1511-hide-buildings.png"><img src="m7/2026-11-09-pr1511-hide-buildings.png" width="320" alt="2026-11-09-pr1511-hide-buildings.png"></a>
 <a href="m7/2026-11-09-pr1505-staff-list.png"><img src="m7/2026-11-09-pr1505-staff-list.png" width="320" alt="2026-11-09-pr1505-staff-list.png"></a>
 <a href="m7/2026-11-09-pr1505-guest-list.png"><img src="m7/2026-11-09-pr1505-guest-list.png" width="320" alt="2026-11-09-pr1505-guest-list.png"></a>
 <a href="m7/2026-11-09-pr1505-animal-list.png"><img src="m7/2026-11-09-pr1505-animal-list.png" width="320" alt="2026-11-09-pr1505-animal-list.png"></a>
 <a href="m7/2026-11-09-pr1466-tank-animal-held-animation.png"><img src="m7/2026-11-09-pr1466-tank-animal-held-animation.png" width="320" alt="2026-11-09-pr1466-tank-animal-held-animation.png"></a>
-<a href="m7/2026-11-07-pr1330-tank-wall-ripples-b.png"><img src="m7/2026-11-07-pr1330-tank-wall-ripples-b.png" width="320" alt="2026-11-07-pr1330-tank-wall-ripples-b.png"></a>
 <!-- /latest -->
