@@ -10,10 +10,10 @@ RustyZoo from the game's own data or, in `original/`, by the original game.
 ## Latest
 
 <!-- latest -->
+<a href="m7/2026-11-10-pr1547-resolution-switch.png"><img src="m7/2026-11-10-pr1547-resolution-switch.png" width="320" alt="2026-11-10-pr1547-resolution-switch.png"></a>
 <a href="m7/2026-11-10-pr1517-building-colour-palette.png"><img src="m7/2026-11-10-pr1517-building-colour-palette.png" width="320" alt="2026-11-10-pr1517-building-colour-palette.png"></a>
 <a href="m7/2026-11-10-pr1516-staff-facts.png"><img src="m7/2026-11-10-pr1516-staff-facts.png" width="320" alt="2026-11-10-pr1516-staff-facts.png"></a>
 <a href="m7/2026-11-10-pr1516-species-facts.png"><img src="m7/2026-11-10-pr1516-species-facts.png" width="320" alt="2026-11-10-pr1516-species-facts.png"></a>
 <a href="m7/2026-11-10-pr1514-options-tooltips.png"><img src="m7/2026-11-10-pr1514-options-tooltips.png" width="320" alt="2026-11-10-pr1514-options-tooltips.png"></a>
 <a href="m7/2026-11-10-pr1514-options-sound-video.png"><img src="m7/2026-11-10-pr1514-options-sound-video.png" width="320" alt="2026-11-10-pr1514-options-sound-video.png"></a>
-<a href="m7/2026-11-10-pr1514-options-advanced.png"><img src="m7/2026-11-10-pr1514-options-advanced.png" width="320" alt="2026-11-10-pr1514-options-advanced.png"></a>
 <!-- /latest -->
